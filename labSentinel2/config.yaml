@@ -1,0 +1,60 @@
+config:
+  debug:
+    debugGUI: False
+    debugCLI: True
+    debugSave: False
+  system:
+    id: 'labPSU#4711'
+  input:
+    #videoDevice: '/dev/video0'
+    #videoWidth: 1920
+    #videoHeight: 1080
+    imageFile: 'input.png'
+  output:
+    resize: True
+    resizeWidth: 320
+    resizeHeight: 320
+    outputSave: False
+    outputInterval: 10
+  ocr:
+    config: '-l eng'
+  ai:
+    modelFile: './labsentinel2-linux-aarch64-v1.eim'
+  mqtt:
+    ip: 'public.cloud.shiftr.io'
+    port: '1883'
+    username: 'public'
+    password: 'public'
+    topic: 'labSentinel2/unit4711'
+
+ocrElements:
+  3v3:
+    x: 180
+    y: 92
+    x2: 380
+    y2: 140
+  5v:
+    x: 180
+    y: 145
+    x2: 380
+    y2: 192
+  12v:
+    x: 180
+    y: 198
+    x2: 380
+    y2: 246
+coverUpColor:
+  r: 240
+  g: 240
+  b: 240
+coverUpElements:
+  ip:
+    x: 180
+    y: 409
+    x2: 777
+    y2: 461
+  password:
+    x: 180
+    y: 460
+    x2: 777
+    y2: 514
