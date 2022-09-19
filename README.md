@@ -2,13 +2,17 @@
 
 Project by Nico Maas, 2022
 
+[Quick Introduction / Blog Post](https://www.nico-maas.de/?p=2498)
+
+[Youtube Demo and Setup Guide](https://youtu.be/KEN_HT20exs)
+
 Sponsored and powered by Advantech AIR-020X and Edge Impulse as part of the Advantech Edge AI Challenge 2022:
 
 <p align="center">
   <img width="600" src="images\advantech.jpg">
 </p>
 
-
+... now also part of Spark and Nvidias [#SummerOfJetson](https://twitter.com/nmaas87/status/1571584031988252680)
 
 ## Setting the scene
 
